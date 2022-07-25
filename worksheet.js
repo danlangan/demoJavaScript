@@ -27,17 +27,40 @@
 
 //console.log(foodOption)
 
-let randomNumber = Math.floor(Math.random()* 11);
-let bandName = ''
+//let randomNumber = Math.floor(Math.random()* 11);
+//let bandName = ''
 
-if (randomNumber < 3) {
-    bandName = "Beatles";
-} else if (randomNumber < 6 && randomNumber > 2) {
-    bandName = "Stones";
-} else if (randomNumber > 5 && randomNumber < 9) {
-    bandName = "Floyd";
-} else if (randomNumber === 9 || 10) {
-    bandName = "Hendrix";
+//if (randomNumber < 3) {
+    //bandName = "Beatles";
+//} else if (randomNumber < 6 && randomNumber > 2) {
+    //bandName = "Stones";
+//} else if (randomNumber > 5 && randomNumber < 9) {
+    //bandName = "Floyd";
+//} else if (randomNumber === 9 || 10) {
+    //bandName = "Hendrix";
+//}
+
+//console.log(bandName)
+
+//for(let i = 0; i < 7; i++) {
+    //if (i < 7) {
+        //console.log("JavaScript is cool!")
+    //}
+//}
+
+//for(let i = 0; i < 11; i++) {
+    //if (i < 11) {
+        //console.log(i)
+   // }
+//}
+
+let helloMessage = "hello";
+let goodbyeMessage = "goodbye";
+
+for(let i = 0; i < 10; i++) {
+    if (i % 2 === 0) {
+        console.log(helloMessage);
+    } else if (i % 2 === 1) {
+        console.log(goodbyeMessage);
+    }
 }
-
-console.log(bandName)
