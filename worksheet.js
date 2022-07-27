@@ -54,13 +54,33 @@
    // }
 //}
 
-let helloMessage = "hello";
-let goodbyeMessage = "goodbye";
+//let helloMessage = "hello";
+//let goodbyeMessage = "goodbye";
 
-for(let i = 0; i < 10; i++) {
-    if (i % 2 === 0) {
-        console.log(helloMessage);
-    } else if (i % 2 === 1) {
-        console.log(goodbyeMessage);
+//for(let i = 0; i < 10; i++) {
+    //if (i % 2 === 0) {
+      //  console.log(helloMessage);
+    //} else if (i % 2 === 1) {
+     //   console.log(goodbyeMessage);
+    //}
+//}
+//let dansFavMovie = "Inception";
+//console.log(dansFavMovie)
+
+//function usersFavBand () {
+  //  let favBand = prompt("What is your favorite band or musical artist?: ");
+    //return favBand;
+//}
+//console.log(usersFavBand())
+
+let instructorIsAwesome = true;
+
+while(instructorIsAwesome) {
+    let studentsInstructorOpin = prompt("Do you think your instructor is awesome? Please answer with y/n: ")
+    if (studentsInstructorOpin === "y") {
+        console.log("Awesome we're glad you like your instructor!")
+        instructorIsAwesome = false
+    } else if (studentsInstructorOpin === "n") {
+        console.log("Sorry to hear you dont like your instructor, please refresh and let us know if you like them")
     }
 }
