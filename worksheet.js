@@ -67,20 +67,25 @@
 //let dansFavMovie = "Inception";
 //console.log(dansFavMovie)
 
-//function usersFavBand () {
-  //  let favBand = prompt("What is your favorite band or musical artist?: ");
-    //return favBand;
-//}
-//console.log(usersFavBand())
-
-let instructorIsAwesome = true;
-
-while(instructorIsAwesome) {
-    let studentsInstructorOpin = prompt("Do you think your instructor is awesome? Please answer with y/n: ")
-    if (studentsInstructorOpin === "y") {
-        console.log("Awesome we're glad you like your instructor!")
-        instructorIsAwesome = false
-    } else if (studentsInstructorOpin === "n") {
-        console.log("Sorry to hear you dont like your instructor, please refresh and let us know if you like them")
-    }
+function usersFavBand () {
+    let favBand = prompt("What is your favorite band or musical artist?: ");
+    return favBand;
 }
+console.log(usersFavBand())
+
+//let instructorIsAwesome = true;
+
+//while(instructorIsAwesome) {
+   // let studentsInstructorOpin = prompt("Do you think your instructor is awesome? Please answer with y/n: ")
+   // if (studentsInstructorOpin === "y") {
+    //    console.log("Awesome we're glad you like your instructor!")
+  //      instructorIsAwesome = false
+//    } else if (studentsInstructorOpin === "n") {
+    //    console.log("Sorry to hear you dont like your instructor, please refresh and let us know if you like them")
+  //  }
+//}
+
+function concertDisplay(musicalAct) {
+    let myStreet = prompt("What street do you live on?")
+    console.log(`It would be great if ${musicalAct} played a show on ${myStreet}!`)
+}console.log(concertDisplay(favBand))
