@@ -85,6 +85,8 @@ console.log(usersFavBand())
   //  }
 //}
 
+let favBand = usersFavBand()
+
 function concertDisplay(musicalAct) {
     let myStreet = prompt("What street do you live on?")
     console.log(`It would be great if ${musicalAct} played a show on ${myStreet}!`)
