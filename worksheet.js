@@ -67,11 +67,11 @@
 //let dansFavMovie = "Inception";
 //console.log(dansFavMovie)
 
-function usersFavBand () {
-    let favBand = prompt("What is your favorite band or musical artist?: ");
-    return favBand;
-}
-console.log(usersFavBand())
+//function usersFavBand () {
+  //  let favBand = prompt("What is your favorite band or musical artist?: ");
+ //   return favBand;
+//}
+//console.log(usersFavBand())
 
 //let instructorIsAwesome = true;
 
@@ -85,9 +85,27 @@ console.log(usersFavBand())
   //  }
 //}
 
-let favBand = usersFavBand()
+//let favBand = usersFavBand()
 
-function concertDisplay(musicalAct) {
-    let myStreet = prompt("What street do you live on?")
-    console.log(`It would be great if ${musicalAct} played a show on ${myStreet}!`)
-}console.log(concertDisplay(favBand))
+//function concertDisplay(musicalAct) {
+  //  let myStreet = prompt("What street do you live on?")
+ //   console.log(`It would be great if ${musicalAct} played a show on ${myStreet}!`);
+//}
+//console.log(concertDisplay(favBand))
+
+// not sure how the code on top of what I have here will work... be sure to ask about this one when I have the one on one call wednesday
+
+//let desktopItems = ['Speakers', 'Monitors', 'Phone Charger'];
+
+//console.log(desktopItems[1])
+
+//desktopItems.push = 'Infinity Gauntlet'
+
+
+
+let userGuess = prompt("Try to guess the magic number! What number do you think it is?")
+
+while (userGuess) {
+    let magicNumber = 50;
+    let guess = 0;
+}
